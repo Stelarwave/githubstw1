@@ -1,0 +1,6 @@
+a=int(input("Enter your name : "))
+b=int(input("Enter Age : "))
+if(a%3==0 and a%5==0):
+    print("divisible by 3 and 5")
+else:
+    print("not divisible ")
