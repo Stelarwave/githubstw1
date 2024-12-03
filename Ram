@@ -1,0 +1,14 @@
+class dad():
+    def __init__(self,a,b):
+        self.model=a
+        self.phonename=b
+class son(dad):
+    def car(self,a,b,c):
+        super().__init__(a,b)
+        self.ram=c
+    def display(self):
+        print("Model",self.model)
+        print("Phonename",self.phonename)
+        print("Ram",self.ram)
+moto=son("MA23","Moto","4 GP")
+moto.son()
